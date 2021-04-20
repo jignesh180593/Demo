@@ -1,0 +1,6 @@
+framework module Pods_Left_Drawer_Left_DrawerUITests {
+  umbrella header "Pods-Left_Drawer-Left_DrawerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

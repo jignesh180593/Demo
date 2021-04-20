@@ -1,0 +1,1189 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595995E8258A4A710514CDE2 /* Pods_Left_DrawerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBF18854C12810CD15095CA /* Pods_Left_DrawerTests.framework */; };
+		B133EA281F791587001F1AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA271F791587001F1AFA /* AppDelegate.swift */; };
+		B133EA2A1F791587001F1AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA291F791587001F1AFA /* ViewController.swift */; };
+		B133EA2D1F791587001F1AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B133EA2B1F791587001F1AFA /* Main.storyboard */; };
+		B133EA2F1F791587001F1AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B133EA2E1F791587001F1AFA /* Assets.xcassets */; };
+		B133EA321F791587001F1AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B133EA301F791587001F1AFA /* LaunchScreen.storyboard */; };
+		B133EA3D1F791587001F1AFA /* Left_DrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA3C1F791587001F1AFA /* Left_DrawerTests.swift */; };
+		B133EA481F791587001F1AFA /* Left_DrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA471F791587001F1AFA /* Left_DrawerUITests.swift */; };
+		B133EA581F7915C0001F1AFA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B133EA571F7915C0001F1AFA /* SWRevealViewController.m */; };
+		B133EA5A1F791D3E001F1AFA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA591F791D3E001F1AFA /* MenuViewController.swift */; };
+		B133EA5C1F791D80001F1AFA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA5B1F791D80001F1AFA /* MenuTableViewCell.swift */; };
+		B133EA5E1F792515001F1AFA /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133EA5D1F792515001F1AFA /* MessageViewController.swift */; };
+		D821C8AC25F0FE8D001E751F /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821C8AB25F0FE8D001E751F /* PrivacyPolicyViewController.swift */; };
+		D821C8B125F10582001E751F /* TermConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821C8B025F10581001E751F /* TermConditionViewController.swift */; };
+		D85E06082600C4EA0015F8E5 /* DetailAdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E06072600C4EA0015F8E5 /* DetailAdviceViewController.swift */; };
+		D860A86125F60A4F00F3AA6A /* AppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A86025F60A4F00F3AA6A /* AppointmentApi.swift */; };
+		D860A86625F60E4900F3AA6A /* PentintResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A86525F60E4900F3AA6A /* PentintResult.swift */; };
+		D860A88C25F62D6100F3AA6A /* DoctorFees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A88B25F62D6100F3AA6A /* DoctorFees.swift */; };
+		D860A89125F62FAA00F3AA6A /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A89025F62FAA00F3AA6A /* PaymentViewController.swift */; };
+		D860A89925F6458300F3AA6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D860A89825F6458300F3AA6A /* GoogleService-Info.plist */; };
+		D860A8A125F64F6300F3AA6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A8A025F64F6300F3AA6A /* LoginViewController.swift */; };
+		D860A8A625F6584600F3AA6A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A8A525F6584600F3AA6A /* Login.swift */; };
+		D860A8AB25F658F400F3AA6A /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A8AA25F658F400F3AA6A /* LoginApi.swift */; };
+		D860A8B025F65AE800F3AA6A /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A8AF25F65AE800F3AA6A /* LoginResult.swift */; };
+		D860A8B525F65D2200F3AA6A /* COMMON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860A8B425F65D2200F3AA6A /* COMMON.swift */; };
+		D862A0D625EE749500A0F64A /* DashboardSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D862A0D525EE749500A0F64A /* DashboardSlider.swift */; };
+		D86B195B25F747DF00705EC0 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B195A25F747DF00705EC0 /* Social.swift */; };
+		D86B196025F748EE00705EC0 /* RegisterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B195F25F748EE00705EC0 /* RegisterApi.swift */; };
+		D86B196525F74C0900705EC0 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B196425F74C0900705EC0 /* ActivityIndicator.swift */; };
+		D86B196A25F75B2D00705EC0 /* MobileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B196925F75B2D00705EC0 /* MobileViewController.swift */; };
+		D86B196F25F75BED00705EC0 /* MobileApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B196E25F75BED00705EC0 /* MobileApi.swift */; };
+		D86B197425F75DD100705EC0 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B197325F75DD000705EC0 /* VerifyOTPViewController.swift */; };
+		D86B197925F782D500705EC0 /* RegResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B197825F782D500705EC0 /* RegResult.swift */; };
+		D86B197E25F786F400705EC0 /* DoctorLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B197D25F786F400705EC0 /* DoctorLoginViewController.swift */; };
+		D86B198325F7890400705EC0 /* DoctorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B198225F7890400705EC0 /* DoctorResult.swift */; };
+		D86B198825F78CD700705EC0 /* DoctorDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B198725F78CD700705EC0 /* DoctorDashboardViewController.swift */; };
+		D86B198D25F78EE800705EC0 /* ChangePwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B198C25F78EE800705EC0 /* ChangePwdViewController.swift */; };
+		D86B199225F7901500705EC0 /* DoctorChangePwdapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B199125F7901500705EC0 /* DoctorChangePwdapi.swift */; };
+		D86B199725F7923D00705EC0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B199625F7923D00705EC0 /* Toast.swift */; };
+		D86B199C25F79C6800705EC0 /* AppointmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B199B25F79C6800705EC0 /* AppointmentViewCell.swift */; };
+		D86B19A125F79D3200705EC0 /* AppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B19A025F79D3200705EC0 /* AppointmentListViewController.swift */; };
+		D86B19A625F79F6100705EC0 /* AppointmentListDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B19A525F79F6100705EC0 /* AppointmentListDoctor.swift */; };
+		D86B19AB25F7AB9900705EC0 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B19AA25F7AB9900705EC0 /* DateButton.swift */; };
+		D87E453C25F3538A00B4A093 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E453B25F3538A00B4A093 /* Appointment.swift */; };
+		D87E456125F37A4200B4A093 /* TimingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E456025F37A4200B4A093 /* TimingViewCell.swift */; };
+		D87E456625F38D8800B4A093 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E456525F38D8800B4A093 /* Doctor.swift */; };
+		D87E456B25F38DD600B4A093 /* DoctorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E456A25F38DD600B4A093 /* DoctorApi.swift */; };
+		D87E457025F394C600B4A093 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E456F25F394C600B4A093 /* Procedure.swift */; };
+		D87E457525F394FF00B4A093 /* ProcedureApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E457425F394FF00B4A093 /* ProcedureApi.swift */; };
+		D87E457A25F399ED00B4A093 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E457925F399ED00B4A093 /* TimeSlot.swift */; };
+		D87E457F25F39D4F00B4A093 /* TimeSlotApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E457E25F39D4F00B4A093 /* TimeSlotApi.swift */; };
+		D883B4D825F8AC6B000EDFE4 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B4D725F8AC6B000EDFE4 /* AboutusViewController.swift */; };
+		D883B4DD25F8AFA6000EDFE4 /* MyAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B4DC25F8AFA6000EDFE4 /* MyAppointment.swift */; };
+		D883B4E225F8B518000EDFE4 /* MyAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B4E125F8B518000EDFE4 /* MyAppointmentViewController.swift */; };
+		D883B4E725F8B65E000EDFE4 /* MyAppointmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B4E625F8B65E000EDFE4 /* MyAppointmentViewCell.swift */; };
+		D883B50F25F8E0A7000EDFE4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B50E25F8E0A7000EDFE4 /* SignUpViewController.swift */; };
+		D883B51425F8E400000EDFE4 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B51325F8E400000EDFE4 /* Extentions.swift */; };
+		D883B52625F90FFE000EDFE4 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883B52525F90FFE000EDFE4 /* Localizable.swift */; };
+		D89A1D2F25EF9D610000660D /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A1D2E25EF9D610000660D /* NormalViewController.swift */; };
+		D89A1D3425EFA6270000660D /* DoctorAdviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A1D3325EFA6270000660D /* DoctorAdviceListViewController.swift */; };
+		D89A1D3925EFA67C0000660D /* DoctorAdviceListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A1D3825EFA67C0000660D /* DoctorAdviceListViewCell.swift */; };
+		D89A1D3E25EFAD830000660D /* DoctorAdviceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A1D3D25EFAD830000660D /* DoctorAdviceApi.swift */; };
+		D89A1D4325EFAE420000660D /* DoctorAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A1D4225EFAE420000660D /* DoctorAdvice.swift */; };
+		D8A8F47B25EE3BA400B84113 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8F47A25EE3BA400B84113 /* Strings.swift */; };
+		D8A8F48025EE3D3B00B84113 /* CONSTANT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8F47F25EE3D3B00B84113 /* CONSTANT.swift */; };
+		D8D949AE25F239C500B33386 /* Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949AD25F239C500B33386 /* Normal.swift */; };
+		D8D949B325F23D9D00B33386 /* NormlApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949B225F23D9D00B33386 /* NormlApi.swift */; };
+		D8D949B825F2447500B33386 /* SuccessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949B725F2447500B33386 /* SuccessResult.swift */; };
+		D8D949BD25F2490900B33386 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949BC25F2490900B33386 /* ContactUsViewController.swift */; };
+		D8D949C225F2549500B33386 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949C125F2549500B33386 /* Contact.swift */; };
+		D8D949C725F2550300B33386 /* ContactApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949C625F2550300B33386 /* ContactApi.swift */; };
+		D8D949CC25F25B9000B33386 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949CB25F25B9000B33386 /* AppointmentViewController.swift */; };
+		D8D949D225F2631100B33386 /* KGRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949D125F2631100B33386 /* KGRadioButton.swift */; };
+		D8FC151225EE654B004C16C8 /* HOSPITALAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC151125EE654B004C16C8 /* HOSPITALAPI.swift */; };
+		D8FC151725EE6646004C16C8 /* DashboardApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC151625EE6646004C16C8 /* DashboardApi.swift */; };
+		EAF3CEBE3031C83B0B002489 /* Pods_Left_Drawer_Left_DrawerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A61B2A35C7DB0143F33558 /* Pods_Left_Drawer_Left_DrawerUITests.framework */; };
+		EE6F44ECC35F85D5E718B32A /* Pods_Left_Drawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63C78590450234AB2A037D /* Pods_Left_Drawer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B133EA391F791587001F1AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B133EA1C1F791586001F1AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B133EA231F791587001F1AFA;
+			remoteInfo = Left_Drawer;
+		};
+		B133EA441F791587001F1AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B133EA1C1F791586001F1AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B133EA231F791587001F1AFA;
+			remoteInfo = Left_Drawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C63C78590450234AB2A037D /* Pods_Left_Drawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Left_Drawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D77F0B6497FDB51F9C66E4 /* Pods-Left_Drawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_Drawer.debug.xcconfig"; path = "Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer.debug.xcconfig"; sourceTree = "<group>"; };
+		982CB68E04B04803A85B440F /* Pods-Left_Drawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_Drawer.release.xcconfig"; path = "Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer.release.xcconfig"; sourceTree = "<group>"; };
+		A7A61B2A35C7DB0143F33558 /* Pods_Left_Drawer_Left_DrawerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Left_Drawer_Left_DrawerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133EA241F791587001F1AFA /* Pulse Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pulse Hospital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133EA271F791587001F1AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B133EA291F791587001F1AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B133EA2C1F791587001F1AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B133EA2E1F791587001F1AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B133EA311F791587001F1AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B133EA331F791587001F1AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B133EA381F791587001F1AFA /* Left_DrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Left_DrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133EA3C1F791587001F1AFA /* Left_DrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left_DrawerTests.swift; sourceTree = "<group>"; };
+		B133EA3E1F791587001F1AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B133EA431F791587001F1AFA /* Left_DrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Left_DrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133EA471F791587001F1AFA /* Left_DrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left_DrawerUITests.swift; sourceTree = "<group>"; };
+		B133EA491F791587001F1AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B133EA551F7915BF001F1AFA /* Left_Drawer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Left_Drawer-Bridging-Header.h"; sourceTree = "<group>"; };
+		B133EA561F7915C0001F1AFA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B133EA571F7915C0001F1AFA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B133EA591F791D3E001F1AFA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B133EA5B1F791D80001F1AFA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		B133EA5D1F792515001F1AFA /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		C0ABD33B9FE31A918F450A86 /* Pods-Left_DrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_DrawerTests.release.xcconfig"; path = "Target Support Files/Pods-Left_DrawerTests/Pods-Left_DrawerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D821C8AB25F0FE8D001E751F /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		D821C8B025F10581001E751F /* TermConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermConditionViewController.swift; sourceTree = "<group>"; };
+		D85E06072600C4EA0015F8E5 /* DetailAdviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdviceViewController.swift; sourceTree = "<group>"; };
+		D860A86025F60A4F00F3AA6A /* AppointmentApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentApi.swift; sourceTree = "<group>"; };
+		D860A86525F60E4900F3AA6A /* PentintResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentintResult.swift; sourceTree = "<group>"; };
+		D860A88B25F62D6100F3AA6A /* DoctorFees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorFees.swift; sourceTree = "<group>"; };
+		D860A89025F62FAA00F3AA6A /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		D860A89825F6458300F3AA6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D860A8A025F64F6300F3AA6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D860A8A525F6584600F3AA6A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D860A8AA25F658F400F3AA6A /* LoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
+		D860A8AF25F65AE800F3AA6A /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		D860A8B425F65D2200F3AA6A /* COMMON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMMON.swift; sourceTree = "<group>"; };
+		D862A0D525EE749500A0F64A /* DashboardSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSlider.swift; sourceTree = "<group>"; };
+		D86B195A25F747DF00705EC0 /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		D86B195F25F748EE00705EC0 /* RegisterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterApi.swift; sourceTree = "<group>"; };
+		D86B196425F74C0900705EC0 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		D86B196925F75B2D00705EC0 /* MobileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileViewController.swift; sourceTree = "<group>"; };
+		D86B196E25F75BED00705EC0 /* MobileApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApi.swift; sourceTree = "<group>"; };
+		D86B197325F75DD000705EC0 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		D86B197825F782D500705EC0 /* RegResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegResult.swift; sourceTree = "<group>"; };
+		D86B197D25F786F400705EC0 /* DoctorLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLoginViewController.swift; sourceTree = "<group>"; };
+		D86B198225F7890400705EC0 /* DoctorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorResult.swift; sourceTree = "<group>"; };
+		D86B198725F78CD700705EC0 /* DoctorDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDashboardViewController.swift; sourceTree = "<group>"; };
+		D86B198C25F78EE800705EC0 /* ChangePwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwdViewController.swift; sourceTree = "<group>"; };
+		D86B199125F7901500705EC0 /* DoctorChangePwdapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorChangePwdapi.swift; sourceTree = "<group>"; };
+		D86B199625F7923D00705EC0 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		D86B199B25F79C6800705EC0 /* AppointmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewCell.swift; sourceTree = "<group>"; };
+		D86B19A025F79D3200705EC0 /* AppointmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListViewController.swift; sourceTree = "<group>"; };
+		D86B19A525F79F6100705EC0 /* AppointmentListDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListDoctor.swift; sourceTree = "<group>"; };
+		D86B19AA25F7AB9900705EC0 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		D8736D462605BFE60035CDAE /* Pulse Hospital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pulse Hospital.entitlements"; sourceTree = "<group>"; };
+		D87E453B25F3538A00B4A093 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		D87E456025F37A4200B4A093 /* TimingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingViewCell.swift; sourceTree = "<group>"; };
+		D87E456525F38D8800B4A093 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		D87E456A25F38DD600B4A093 /* DoctorApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorApi.swift; sourceTree = "<group>"; };
+		D87E456F25F394C600B4A093 /* Procedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
+		D87E457425F394FF00B4A093 /* ProcedureApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureApi.swift; sourceTree = "<group>"; };
+		D87E457925F399ED00B4A093 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
+		D87E457E25F39D4F00B4A093 /* TimeSlotApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotApi.swift; sourceTree = "<group>"; };
+		D883B4D725F8AC6B000EDFE4 /* AboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		D883B4DC25F8AFA6000EDFE4 /* MyAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointment.swift; sourceTree = "<group>"; };
+		D883B4E125F8B518000EDFE4 /* MyAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentViewController.swift; sourceTree = "<group>"; };
+		D883B4E625F8B65E000EDFE4 /* MyAppointmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentViewCell.swift; sourceTree = "<group>"; };
+		D883B50E25F8E0A7000EDFE4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D883B51325F8E400000EDFE4 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		D883B52025F90B79000EDFE4 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Main.strings; sourceTree = "<group>"; };
+		D883B52125F90B79000EDFE4 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D883B52525F90FFE000EDFE4 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		D89A1D2E25EF9D610000660D /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		D89A1D3325EFA6270000660D /* DoctorAdviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAdviceListViewController.swift; sourceTree = "<group>"; };
+		D89A1D3825EFA67C0000660D /* DoctorAdviceListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAdviceListViewCell.swift; sourceTree = "<group>"; };
+		D89A1D3D25EFAD830000660D /* DoctorAdviceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAdviceApi.swift; sourceTree = "<group>"; };
+		D89A1D4225EFAE420000660D /* DoctorAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAdvice.swift; sourceTree = "<group>"; };
+		D8A8F47A25EE3BA400B84113 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		D8A8F47F25EE3D3B00B84113 /* CONSTANT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANT.swift; sourceTree = "<group>"; };
+		D8D949AD25F239C500B33386 /* Normal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Normal.swift; sourceTree = "<group>"; };
+		D8D949B225F23D9D00B33386 /* NormlApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormlApi.swift; sourceTree = "<group>"; };
+		D8D949B725F2447500B33386 /* SuccessResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessResult.swift; sourceTree = "<group>"; };
+		D8D949BC25F2490900B33386 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		D8D949C125F2549500B33386 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D8D949C625F2550300B33386 /* ContactApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactApi.swift; sourceTree = "<group>"; };
+		D8D949CB25F25B9000B33386 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		D8D949D125F2631100B33386 /* KGRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGRadioButton.swift; sourceTree = "<group>"; };
+		D8FC151125EE654B004C16C8 /* HOSPITALAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOSPITALAPI.swift; sourceTree = "<group>"; };
+		D8FC151625EE6646004C16C8 /* DashboardApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardApi.swift; sourceTree = "<group>"; };
+		DC5E6CB4597A495461A86A31 /* Pods-Left_Drawer-Left_DrawerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_Drawer-Left_DrawerUITests.release.xcconfig"; path = "Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F143E05D9DEF82DA9729EFB0 /* Pods-Left_Drawer-Left_DrawerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_Drawer-Left_DrawerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A1B0F76F89D929B8995590 /* Pods-Left_DrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Left_DrawerTests.debug.xcconfig"; path = "Target Support Files/Pods-Left_DrawerTests/Pods-Left_DrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBF18854C12810CD15095CA /* Pods_Left_DrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Left_DrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B133EA211F791587001F1AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F44ECC35F85D5E718B32A /* Pods_Left_Drawer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA351F791587001F1AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595995E8258A4A710514CDE2 /* Pods_Left_DrawerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA401F791587001F1AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3CEBE3031C83B0B002489 /* Pods_Left_Drawer_Left_DrawerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F2AB535CCCA6D78BAE7339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C63C78590450234AB2A037D /* Pods_Left_Drawer.framework */,
+				A7A61B2A35C7DB0143F33558 /* Pods_Left_Drawer_Left_DrawerUITests.framework */,
+				FDBF18854C12810CD15095CA /* Pods_Left_DrawerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B133EA1B1F791586001F1AFA = {
+			isa = PBXGroup;
+			children = (
+				B133EA261F791587001F1AFA /* Left_Drawer */,
+				B133EA3B1F791587001F1AFA /* Left_DrawerTests */,
+				B133EA461F791587001F1AFA /* Left_DrawerUITests */,
+				B133EA251F791587001F1AFA /* Products */,
+				DF74B41AC1A32ACA7D82DBF8 /* Pods */,
+				14F2AB535CCCA6D78BAE7339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B133EA251F791587001F1AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA241F791587001F1AFA /* Pulse Hospital.app */,
+				B133EA381F791587001F1AFA /* Left_DrawerTests.xctest */,
+				B133EA431F791587001F1AFA /* Left_DrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B133EA261F791587001F1AFA /* Left_Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				D8736D462605BFE60035CDAE /* Pulse Hospital.entitlements */,
+				D8D949D025F262FB00B33386 /* Radiobutton */,
+				D862A0D425EE747C00A0F64A /* Entity */,
+				D8FC151025EE6526004C16C8 /* Networking */,
+				D8A8F47625EE37C600B84113 /* Utils */,
+				D8A8F47525EE37BE00B84113 /* Views */,
+				D8A8F47425EE37B500B84113 /* Controllers */,
+				D8A8F47325EE37A100B84113 /* SWRevealView */,
+				D8A8F47225EE379800B84113 /* Menu */,
+				B133EA271F791587001F1AFA /* AppDelegate.swift */,
+				B133EA2B1F791587001F1AFA /* Main.storyboard */,
+				B133EA2E1F791587001F1AFA /* Assets.xcassets */,
+				B133EA301F791587001F1AFA /* LaunchScreen.storyboard */,
+				B133EA331F791587001F1AFA /* Info.plist */,
+				D860A89825F6458300F3AA6A /* GoogleService-Info.plist */,
+				B133EA551F7915BF001F1AFA /* Left_Drawer-Bridging-Header.h */,
+				B133EA5D1F792515001F1AFA /* MessageViewController.swift */,
+			);
+			path = Left_Drawer;
+			sourceTree = "<group>";
+		};
+		B133EA3B1F791587001F1AFA /* Left_DrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA3C1F791587001F1AFA /* Left_DrawerTests.swift */,
+				B133EA3E1F791587001F1AFA /* Info.plist */,
+			);
+			path = Left_DrawerTests;
+			sourceTree = "<group>";
+		};
+		B133EA461F791587001F1AFA /* Left_DrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA471F791587001F1AFA /* Left_DrawerUITests.swift */,
+				B133EA491F791587001F1AFA /* Info.plist */,
+			);
+			path = Left_DrawerUITests;
+			sourceTree = "<group>";
+		};
+		D862A0D425EE747C00A0F64A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D862A0D525EE749500A0F64A /* DashboardSlider.swift */,
+				D89A1D4225EFAE420000660D /* DoctorAdvice.swift */,
+				D8D949AD25F239C500B33386 /* Normal.swift */,
+				D8D949B725F2447500B33386 /* SuccessResult.swift */,
+				D8D949C125F2549500B33386 /* Contact.swift */,
+				D87E453B25F3538A00B4A093 /* Appointment.swift */,
+				D87E456525F38D8800B4A093 /* Doctor.swift */,
+				D87E456F25F394C600B4A093 /* Procedure.swift */,
+				D87E457925F399ED00B4A093 /* TimeSlot.swift */,
+				D860A86525F60E4900F3AA6A /* PentintResult.swift */,
+				D860A88B25F62D6100F3AA6A /* DoctorFees.swift */,
+				D860A8A525F6584600F3AA6A /* Login.swift */,
+				D860A8AF25F65AE800F3AA6A /* LoginResult.swift */,
+				D86B195A25F747DF00705EC0 /* Social.swift */,
+				D86B197825F782D500705EC0 /* RegResult.swift */,
+				D86B198225F7890400705EC0 /* DoctorResult.swift */,
+				D86B19A525F79F6100705EC0 /* AppointmentListDoctor.swift */,
+				D883B4DC25F8AFA6000EDFE4 /* MyAppointment.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D8A8F47225EE379800B84113 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA591F791D3E001F1AFA /* MenuViewController.swift */,
+				B133EA5B1F791D80001F1AFA /* MenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D8A8F47325EE37A100B84113 /* SWRevealView */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA561F7915C0001F1AFA /* SWRevealViewController.h */,
+				B133EA571F7915C0001F1AFA /* SWRevealViewController.m */,
+			);
+			path = SWRevealView;
+			sourceTree = "<group>";
+		};
+		D8A8F47425EE37B500B84113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B133EA291F791587001F1AFA /* ViewController.swift */,
+				D89A1D2E25EF9D610000660D /* NormalViewController.swift */,
+				D89A1D3325EFA6270000660D /* DoctorAdviceListViewController.swift */,
+				D821C8AB25F0FE8D001E751F /* PrivacyPolicyViewController.swift */,
+				D821C8B025F10581001E751F /* TermConditionViewController.swift */,
+				D8D949BC25F2490900B33386 /* ContactUsViewController.swift */,
+				D8D949CB25F25B9000B33386 /* AppointmentViewController.swift */,
+				D860A89025F62FAA00F3AA6A /* PaymentViewController.swift */,
+				D860A8A025F64F6300F3AA6A /* LoginViewController.swift */,
+				D86B196925F75B2D00705EC0 /* MobileViewController.swift */,
+				D86B197325F75DD000705EC0 /* VerifyOTPViewController.swift */,
+				D86B197D25F786F400705EC0 /* DoctorLoginViewController.swift */,
+				D86B198725F78CD700705EC0 /* DoctorDashboardViewController.swift */,
+				D86B198C25F78EE800705EC0 /* ChangePwdViewController.swift */,
+				D86B19A025F79D3200705EC0 /* AppointmentListViewController.swift */,
+				D883B4D725F8AC6B000EDFE4 /* AboutusViewController.swift */,
+				D883B4E125F8B518000EDFE4 /* MyAppointmentViewController.swift */,
+				D883B50E25F8E0A7000EDFE4 /* SignUpViewController.swift */,
+				D85E06072600C4EA0015F8E5 /* DetailAdviceViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8A8F47525EE37BE00B84113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D89A1D3825EFA67C0000660D /* DoctorAdviceListViewCell.swift */,
+				D87E456025F37A4200B4A093 /* TimingViewCell.swift */,
+				D86B199B25F79C6800705EC0 /* AppointmentViewCell.swift */,
+				D883B4E625F8B65E000EDFE4 /* MyAppointmentViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8A8F47625EE37C600B84113 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8A8F47A25EE3BA400B84113 /* Strings.swift */,
+				D8A8F47F25EE3D3B00B84113 /* CONSTANT.swift */,
+				D86B199625F7923D00705EC0 /* Toast.swift */,
+				D860A8B425F65D2200F3AA6A /* COMMON.swift */,
+				D86B196425F74C0900705EC0 /* ActivityIndicator.swift */,
+				D86B19AA25F7AB9900705EC0 /* DateButton.swift */,
+				D883B51325F8E400000EDFE4 /* Extentions.swift */,
+				D883B52525F90FFE000EDFE4 /* Localizable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D8D949D025F262FB00B33386 /* Radiobutton */ = {
+			isa = PBXGroup;
+			children = (
+				D8D949D125F2631100B33386 /* KGRadioButton.swift */,
+			);
+			path = Radiobutton;
+			sourceTree = "<group>";
+		};
+		D8FC151025EE6526004C16C8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC151125EE654B004C16C8 /* HOSPITALAPI.swift */,
+				D8FC151625EE6646004C16C8 /* DashboardApi.swift */,
+				D89A1D3D25EFAD830000660D /* DoctorAdviceApi.swift */,
+				D8D949B225F23D9D00B33386 /* NormlApi.swift */,
+				D8D949C625F2550300B33386 /* ContactApi.swift */,
+				D87E456A25F38DD600B4A093 /* DoctorApi.swift */,
+				D87E457425F394FF00B4A093 /* ProcedureApi.swift */,
+				D87E457E25F39D4F00B4A093 /* TimeSlotApi.swift */,
+				D860A86025F60A4F00F3AA6A /* AppointmentApi.swift */,
+				D860A8AA25F658F400F3AA6A /* LoginApi.swift */,
+				D86B195F25F748EE00705EC0 /* RegisterApi.swift */,
+				D86B196E25F75BED00705EC0 /* MobileApi.swift */,
+				D86B199125F7901500705EC0 /* DoctorChangePwdapi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DF74B41AC1A32ACA7D82DBF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26D77F0B6497FDB51F9C66E4 /* Pods-Left_Drawer.debug.xcconfig */,
+				982CB68E04B04803A85B440F /* Pods-Left_Drawer.release.xcconfig */,
+				F143E05D9DEF82DA9729EFB0 /* Pods-Left_Drawer-Left_DrawerUITests.debug.xcconfig */,
+				DC5E6CB4597A495461A86A31 /* Pods-Left_Drawer-Left_DrawerUITests.release.xcconfig */,
+				F1A1B0F76F89D929B8995590 /* Pods-Left_DrawerTests.debug.xcconfig */,
+				C0ABD33B9FE31A918F450A86 /* Pods-Left_DrawerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B133EA231F791587001F1AFA /* Left_Drawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B133EA4C1F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_Drawer" */;
+			buildPhases = (
+				B11245B9DDEB3461D0162567 /* [CP] Check Pods Manifest.lock */,
+				B133EA201F791587001F1AFA /* Sources */,
+				B133EA211F791587001F1AFA /* Frameworks */,
+				B133EA221F791587001F1AFA /* Resources */,
+				6B5CDCAEE0DA0A34E98A9380 /* [CP] Embed Pods Frameworks */,
+				35951C289DC0C062E5E16C73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Left_Drawer;
+			productName = Left_Drawer;
+			productReference = B133EA241F791587001F1AFA /* Pulse Hospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B133EA371F791587001F1AFA /* Left_DrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B133EA4F1F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_DrawerTests" */;
+			buildPhases = (
+				36F58025FADFCE07C4A1EB3B /* [CP] Check Pods Manifest.lock */,
+				B133EA341F791587001F1AFA /* Sources */,
+				B133EA351F791587001F1AFA /* Frameworks */,
+				B133EA361F791587001F1AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B133EA3A1F791587001F1AFA /* PBXTargetDependency */,
+			);
+			name = Left_DrawerTests;
+			productName = Left_DrawerTests;
+			productReference = B133EA381F791587001F1AFA /* Left_DrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B133EA421F791587001F1AFA /* Left_DrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B133EA521F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_DrawerUITests" */;
+			buildPhases = (
+				F046C1742B408E5E5D1583FA /* [CP] Check Pods Manifest.lock */,
+				B133EA3F1F791587001F1AFA /* Sources */,
+				B133EA401F791587001F1AFA /* Frameworks */,
+				B133EA411F791587001F1AFA /* Resources */,
+				2076B23ED0CCD3AC679233C8 /* [CP] Embed Pods Frameworks */,
+				8A9DA12EC663FEDFB66C963F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B133EA451F791587001F1AFA /* PBXTargetDependency */,
+			);
+			name = Left_DrawerUITests;
+			productName = Left_DrawerUITests;
+			productReference = B133EA431F791587001F1AFA /* Left_DrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B133EA1C1F791586001F1AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Romal Tandel";
+				TargetAttributes = {
+					B133EA231F791587001F1AFA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TH9FGHRAR8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+					B133EA371F791587001F1AFA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZYJXFV69SV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B133EA231F791587001F1AFA;
+					};
+					B133EA421F791587001F1AFA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZYJXFV69SV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B133EA231F791587001F1AFA;
+					};
+				};
+			};
+			buildConfigurationList = B133EA1F1F791586001F1AFA /* Build configuration list for PBXProject "Left_Drawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ur,
+			);
+			mainGroup = B133EA1B1F791586001F1AFA;
+			productRefGroup = B133EA251F791587001F1AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B133EA231F791587001F1AFA /* Left_Drawer */,
+				B133EA371F791587001F1AFA /* Left_DrawerTests */,
+				B133EA421F791587001F1AFA /* Left_DrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B133EA221F791587001F1AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B133EA321F791587001F1AFA /* LaunchScreen.storyboard in Resources */,
+				B133EA2F1F791587001F1AFA /* Assets.xcassets in Resources */,
+				B133EA2D1F791587001F1AFA /* Main.storyboard in Resources */,
+				D860A89925F6458300F3AA6A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA361F791587001F1AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA411F791587001F1AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2076B23ED0CCD3AC679233C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/razorpay-pod/Pod/Razorpay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Razorpay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35951C289DC0C062E5E16C73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36F58025FADFCE07C4A1EB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Left_DrawerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5CDCAEE0DA0A34E98A9380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/razorpay-pod/Pod/Razorpay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Razorpay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer/Pods-Left_Drawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9DA12EC663FEDFB66C963F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Left_Drawer-Left_DrawerUITests/Pods-Left_Drawer-Left_DrawerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11245B9DDEB3461D0162567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Left_Drawer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F046C1742B408E5E5D1583FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Left_Drawer-Left_DrawerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B133EA201F791587001F1AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FC151225EE654B004C16C8 /* HOSPITALAPI.swift in Sources */,
+				D883B4E225F8B518000EDFE4 /* MyAppointmentViewController.swift in Sources */,
+				D87E457A25F399ED00B4A093 /* TimeSlot.swift in Sources */,
+				D89A1D2F25EF9D610000660D /* NormalViewController.swift in Sources */,
+				D860A86625F60E4900F3AA6A /* PentintResult.swift in Sources */,
+				D862A0D625EE749500A0F64A /* DashboardSlider.swift in Sources */,
+				D860A88C25F62D6100F3AA6A /* DoctorFees.swift in Sources */,
+				D86B195B25F747DF00705EC0 /* Social.swift in Sources */,
+				D86B196A25F75B2D00705EC0 /* MobileViewController.swift in Sources */,
+				D8FC151725EE6646004C16C8 /* DashboardApi.swift in Sources */,
+				D8D949C225F2549500B33386 /* Contact.swift in Sources */,
+				D8D949D225F2631100B33386 /* KGRadioButton.swift in Sources */,
+				D86B198825F78CD700705EC0 /* DoctorDashboardViewController.swift in Sources */,
+				D86B19A625F79F6100705EC0 /* AppointmentListDoctor.swift in Sources */,
+				D883B51425F8E400000EDFE4 /* Extentions.swift in Sources */,
+				D860A8B525F65D2200F3AA6A /* COMMON.swift in Sources */,
+				D86B196F25F75BED00705EC0 /* MobileApi.swift in Sources */,
+				D89A1D4325EFAE420000660D /* DoctorAdvice.swift in Sources */,
+				D85E06082600C4EA0015F8E5 /* DetailAdviceViewController.swift in Sources */,
+				D86B196525F74C0900705EC0 /* ActivityIndicator.swift in Sources */,
+				D87E456625F38D8800B4A093 /* Doctor.swift in Sources */,
+				D86B197E25F786F400705EC0 /* DoctorLoginViewController.swift in Sources */,
+				D883B4DD25F8AFA6000EDFE4 /* MyAppointment.swift in Sources */,
+				B133EA2A1F791587001F1AFA /* ViewController.swift in Sources */,
+				D860A86125F60A4F00F3AA6A /* AppointmentApi.swift in Sources */,
+				D821C8AC25F0FE8D001E751F /* PrivacyPolicyViewController.swift in Sources */,
+				D883B50F25F8E0A7000EDFE4 /* SignUpViewController.swift in Sources */,
+				D86B197925F782D500705EC0 /* RegResult.swift in Sources */,
+				B133EA281F791587001F1AFA /* AppDelegate.swift in Sources */,
+				D87E457025F394C600B4A093 /* Procedure.swift in Sources */,
+				D8D949C725F2550300B33386 /* ContactApi.swift in Sources */,
+				B133EA581F7915C0001F1AFA /* SWRevealViewController.m in Sources */,
+				D87E453C25F3538A00B4A093 /* Appointment.swift in Sources */,
+				D89A1D3E25EFAD830000660D /* DoctorAdviceApi.swift in Sources */,
+				D86B19AB25F7AB9900705EC0 /* DateButton.swift in Sources */,
+				D86B198D25F78EE800705EC0 /* ChangePwdViewController.swift in Sources */,
+				D87E457525F394FF00B4A093 /* ProcedureApi.swift in Sources */,
+				D860A89125F62FAA00F3AA6A /* PaymentViewController.swift in Sources */,
+				D8A8F48025EE3D3B00B84113 /* CONSTANT.swift in Sources */,
+				D8D949CC25F25B9000B33386 /* AppointmentViewController.swift in Sources */,
+				D860A8A125F64F6300F3AA6A /* LoginViewController.swift in Sources */,
+				D883B4E725F8B65E000EDFE4 /* MyAppointmentViewCell.swift in Sources */,
+				D8D949B325F23D9D00B33386 /* NormlApi.swift in Sources */,
+				D8D949AE25F239C500B33386 /* Normal.swift in Sources */,
+				D86B199225F7901500705EC0 /* DoctorChangePwdapi.swift in Sources */,
+				D87E456B25F38DD600B4A093 /* DoctorApi.swift in Sources */,
+				D883B52625F90FFE000EDFE4 /* Localizable.swift in Sources */,
+				D87E456125F37A4200B4A093 /* TimingViewCell.swift in Sources */,
+				D86B197425F75DD100705EC0 /* VerifyOTPViewController.swift in Sources */,
+				D86B199C25F79C6800705EC0 /* AppointmentViewCell.swift in Sources */,
+				B133EA5A1F791D3E001F1AFA /* MenuViewController.swift in Sources */,
+				D86B199725F7923D00705EC0 /* Toast.swift in Sources */,
+				B133EA5E1F792515001F1AFA /* MessageViewController.swift in Sources */,
+				D86B19A125F79D3200705EC0 /* AppointmentListViewController.swift in Sources */,
+				D860A8A625F6584600F3AA6A /* Login.swift in Sources */,
+				B133EA5C1F791D80001F1AFA /* MenuTableViewCell.swift in Sources */,
+				D8D949B825F2447500B33386 /* SuccessResult.swift in Sources */,
+				D8A8F47B25EE3BA400B84113 /* Strings.swift in Sources */,
+				D86B198325F7890400705EC0 /* DoctorResult.swift in Sources */,
+				D89A1D3425EFA6270000660D /* DoctorAdviceListViewController.swift in Sources */,
+				D860A8B025F65AE800F3AA6A /* LoginResult.swift in Sources */,
+				D883B4D825F8AC6B000EDFE4 /* AboutusViewController.swift in Sources */,
+				D821C8B125F10582001E751F /* TermConditionViewController.swift in Sources */,
+				D87E457F25F39D4F00B4A093 /* TimeSlotApi.swift in Sources */,
+				D89A1D3925EFA67C0000660D /* DoctorAdviceListViewCell.swift in Sources */,
+				D86B196025F748EE00705EC0 /* RegisterApi.swift in Sources */,
+				D8D949BD25F2490900B33386 /* ContactUsViewController.swift in Sources */,
+				D860A8AB25F658F400F3AA6A /* LoginApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA341F791587001F1AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B133EA3D1F791587001F1AFA /* Left_DrawerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133EA3F1F791587001F1AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B133EA481F791587001F1AFA /* Left_DrawerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B133EA3A1F791587001F1AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B133EA231F791587001F1AFA /* Left_Drawer */;
+			targetProxy = B133EA391F791587001F1AFA /* PBXContainerItemProxy */;
+		};
+		B133EA451F791587001F1AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B133EA231F791587001F1AFA /* Left_Drawer */;
+			targetProxy = B133EA441F791587001F1AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B133EA2B1F791587001F1AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B133EA2C1F791587001F1AFA /* Base */,
+				D883B52025F90B79000EDFE4 /* ur */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B133EA301F791587001F1AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B133EA311F791587001F1AFA /* Base */,
+				D883B52125F90B79000EDFE4 /* ur */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B133EA4A1F791587001F1AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B133EA4B1F791587001F1AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B133EA4D1F791587001F1AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D77F0B6497FDB51F9C66E4 /* Pods-Left_Drawer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Left_Drawer/Pulse Hospital.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = TH9FGHRAR8;
+				INFOPLIST_FILE = Left_Drawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsehospital.com;
+				PRODUCT_NAME = "Pulse Hospital";
+				PROVISIONING_PROFILE_SPECIFIER = App_Pulse_Hospital;
+				SWIFT_OBJC_BRIDGING_HEADER = "Left_Drawer/Left_Drawer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B133EA4E1F791587001F1AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982CB68E04B04803A85B440F /* Pods-Left_Drawer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Left_Drawer/Pulse Hospital.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = TH9FGHRAR8;
+				INFOPLIST_FILE = Left_Drawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsehospital.com;
+				PRODUCT_NAME = "Pulse Hospital";
+				PROVISIONING_PROFILE_SPECIFIER = App_Pulse_Hospital;
+				SWIFT_OBJC_BRIDGING_HEADER = "Left_Drawer/Left_Drawer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B133EA501F791587001F1AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A1B0F76F89D929B8995590 /* Pods-Left_DrawerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZYJXFV69SV;
+				INFOPLIST_FILE = Left_DrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Left-Drawer.Left-DrawerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Left_Drawer.app/Left_Drawer";
+			};
+			name = Debug;
+		};
+		B133EA511F791587001F1AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0ABD33B9FE31A918F450A86 /* Pods-Left_DrawerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZYJXFV69SV;
+				INFOPLIST_FILE = Left_DrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Left-Drawer.Left-DrawerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Left_Drawer.app/Left_Drawer";
+			};
+			name = Release;
+		};
+		B133EA531F791587001F1AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F143E05D9DEF82DA9729EFB0 /* Pods-Left_Drawer-Left_DrawerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZYJXFV69SV;
+				INFOPLIST_FILE = Left_DrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Left-Drawer.Left-DrawerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Left_Drawer;
+			};
+			name = Debug;
+		};
+		B133EA541F791587001F1AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5E6CB4597A495461A86A31 /* Pods-Left_Drawer-Left_DrawerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZYJXFV69SV;
+				INFOPLIST_FILE = Left_DrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Left-Drawer.Left-DrawerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Left_Drawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B133EA1F1F791586001F1AFA /* Build configuration list for PBXProject "Left_Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B133EA4A1F791587001F1AFA /* Debug */,
+				B133EA4B1F791587001F1AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B133EA4C1F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B133EA4D1F791587001F1AFA /* Debug */,
+				B133EA4E1F791587001F1AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B133EA4F1F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_DrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B133EA501F791587001F1AFA /* Debug */,
+				B133EA511F791587001F1AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B133EA521F791587001F1AFA /* Build configuration list for PBXNativeTarget "Left_DrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B133EA531F791587001F1AFA /* Debug */,
+				B133EA541F791587001F1AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B133EA1C1F791586001F1AFA /* Project object */;
+}

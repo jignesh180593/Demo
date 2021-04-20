@@ -1,0 +1,375 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "0Gf-Xl-ONf"; */
+"0Gf-Xl-ONf.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "0aE-RS-LG6"; */
+"0aE-RS-LG6.normalTitle" = "SUBMIT";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "0iB-jc-05s"; */
+"0iB-jc-05s.placeholder" = "Mobile";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "3yQ-X6-1eq"; */
+"3yQ-X6-1eq.text" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3zN-lo-1tn"; */
+"3zN-lo-1tn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Terms and Conditions: for User 1. Discount offers are subject to vendor's approval. 2. Anar is just a facilitator not a regulator. 3. Discounts are subject to availabily and Vendor's approval. 4. Anar is not responsible for any transaction or quality of service/product availed on the platform. 5. Anar reserves the right to send notifications and personalised recommendations. 6. By using this application, the user complies with the Terms and Conditions of the platform. \nAlready have account?"; ObjectID = "4BO-Y4-pyr"; */
+"4BO-Y4-pyr.text" = "Terms and Conditions: for User 1. Discount offers are subject to vendor's approval. 2. Anar is just a facilitator not a regulator. 3. Discounts are subject to availabily and Vendor's approval. 4. Anar is not responsible for any transaction or quality of service/product availed on the platform. 5. Anar reserves the right to send notifications and personalised recommendations. 6. By using this application, the user complies with the Terms and Conditions of the platform. \nAlready have account?";
+
+/* Class = "UILabel"; text = "Please fill in your details,our executive shall get in touch with your shortly."; ObjectID = "4LC-vh-kp4"; */
+"4LC-vh-kp4.text" = "Please fill in your details,our executive shall get in touch with your shortly.";
+
+/* Class = "UIButton"; normalTitle = "I agree"; ObjectID = "4YP-hX-niZ"; */
+"4YP-hX-niZ.normalTitle" = "I agree";
+
+/* Class = "UITextField"; placeholder = "Mobile number"; ObjectID = "6LR-T4-olj"; */
+"6LR-T4-olj.placeholder" = "موبائل فون کانمبر";
+
+/* Class = "UIButton"; normalTitle = "Change password"; ObjectID = "6kK-yh-EFa"; */
+"6kK-yh-EFa.normalTitle" = "پاس ورڈ تبدیل کریں";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "7as-TD-w99"; */
+"7as-TD-w99.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Procedure type :"; ObjectID = "86C-LC-3rD"; */
+"86C-LC-3rD.text" = "Procedure type :";
+
+/* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "8vu-t0-iA1"; */
+"8vu-t0-iA1.placeholder" = "Enter Name";
+
+/* Class = "UILabel"; text = "Appointment type : "; ObjectID = "9zd-w0-0FN"; */
+"9zd-w0-0FN.text" = "Appointment type : ";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "BaU-8b-8Nq"; */
+"BaU-8b-8Nq.normalTitle" = "لاگ ان کریں";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Dab-5P-O6Z"; */
+"Dab-5P-O6Z.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "DpL-8r-fLE"; */
+"DpL-8r-fLE.text" = "15";
+
+/* Class = "UIButton"; normalTitle = "Doctor login"; ObjectID = "EAj-An-e5r"; */
+"EAj-An-e5r.normalTitle" = "ڈاکٹر لاگ ان";
+
+/* Class = "UILabel"; text = "10:00AM"; ObjectID = "EMk-Se-2Ym"; */
+"EMk-Se-2Ym.text" = "10:00AM";
+
+/* Class = "UILabel"; text = "+9107860000097"; ObjectID = "Fg8-eJ-LNZ"; */
+"Fg8-eJ-LNZ.text" = "+9107860000097";
+
+/* Class = "UILabel"; text = "Female"; ObjectID = "GKH-qr-Zgk"; */
+"GKH-qr-Zgk.text" = "Female";
+
+/* Class = "UILabel"; text = "Appointment time :"; ObjectID = "Gz9-8U-ZYR"; */
+"Gz9-8U-ZYR.text" = "Appointment time :";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "HwD-mk-WVh"; */
+"HwD-mk-WVh.text" = "Message";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "I2d-5W-6kV"; */
+"I2d-5W-6kV.text" = "15";
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "Ijx-5P-4Hm"; */
+"Ijx-5P-4Hm.placeholder" = "Contact Number";
+
+/* Class = "UITextField"; placeholder = "Enter Message"; ObjectID = "JHW-uY-LeB"; */
+"JHW-uY-LeB.placeholder" = "Enter Message";
+
+/* Class = "UILabel"; text = "FRI"; ObjectID = "JI0-lW-avF"; */
+"JI0-lW-avF.text" = "FRI";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "Kmb-Rb-YWh"; */
+"Kmb-Rb-YWh.text" = "Male";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "L90-cS-zG7"; */
+"L90-cS-zG7.normalTitle" = "Clear";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "L9r-Qh-Rv4"; */
+"L9r-Qh-Rv4.placeholder" = "Address";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "Lv9-EX-zjR"; */
+"Lv9-EX-zjR.normalTitle" = "2";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "Mc4-1U-XxI"; */
+"Mc4-1U-XxI.title" = "Drawer Menu";
+
+/* Class = "UILabel"; text = "Phone         :"; ObjectID = "NHY-xS-Imi"; */
+"NHY-xS-Imi.text" = "Phone         :";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "NKo-if-yNx"; */
+"NKo-if-yNx.placeholder" = "New Password";
+
+/* Class = "UITextField"; placeholder = "Enter otp"; ObjectID = "Nlw-KK-tJf"; */
+"Nlw-KK-tJf.placeholder" = "Enter otp";
+
+/* Class = "UITextField"; placeholder = "Last name"; ObjectID = "OKT-2z-YaR"; */
+"OKT-2z-YaR.placeholder" = " آخری نام";
+
+/* Class = "UILabel"; text = "Patient name : "; ObjectID = "PMy-ze-rP4"; */
+"PMy-ze-rP4.text" = "Patient name : ";
+
+/* Class = "UILabel"; text = "No"; ObjectID = "Pbn-hw-0XU"; */
+"Pbn-hw-0XU.text" = "No";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QNm-bg-urF"; */
+"QNm-bg-urF.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Qeq-O7-8fq"; */
+"Qeq-O7-8fq.placeholder" = "ای میل";
+
+/* Class = "UILabel"; text = "Selet timing "; ObjectID = "Qo7-4u-Q47"; */
+"Qo7-4u-Q47.text" = "Selet timing ";
+
+/* Class = "UITextField"; placeholder = "Enter Email"; ObjectID = "R1N-ce-MQX"; */
+"R1N-ce-MQX.placeholder" = "Enter Email";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "SPk-E9-i6Q"; */
+"SPk-E9-i6Q.text" = "15";
+
+/* Class = "UILabel"; text = "Genesis of Pulse Hospital and Research Center began with a vision to provide state of the art health care system in the state at affordable. \nOur tagline Committed to Care states our motto and our team of qualified and experienced medical professionals have an aim of bringing Jammu on the medical care map of the country. "; ObjectID = "SSI-5v-W1y"; */
+"SSI-5v-W1y.text" = "Genesis of Pulse Hospital and Research Center began with a vision to provide state of the art health care system in the state at affordable. \nOur tagline Committed to Care states our motto and our team of qualified and experienced medical professionals have an aim of bringing Jammu on the medical care map of the country. ";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "STh-69-rTk"; */
+"STh-69-rTk.title" = "Drawer Menu";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Sfz-3V-szs"; */
+"Sfz-3V-szs.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "Syr-6j-knG"; */
+"Syr-6j-knG.title" = "Drawer Menu";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "TCh-fK-luM"; */
+"TCh-fK-luM.placeholder" = "پاس ورڈ کی تصدیق کریں";
+
+/* Class = "UITextView"; text = "Issue you are facing"; ObjectID = "Tas-3Z-B4c"; */
+"Tas-3Z-B4c.text" = "Issue you are facing";
+
+/* Class = "UILabel"; text = "Address      :"; ObjectID = "Tdq-FY-tqI"; */
+"Tdq-FY-tqI.text" = "Address      :";
+
+/* Class = "UIButton"; normalTitle = "Generate otp"; ObjectID = "UQv-Ap-fvb"; */
+"UQv-Ap-fvb.normalTitle" = "Generate otp";
+
+/* Class = "UILabel"; text = "Doctors Advice"; ObjectID = "UaD-KN-RJh"; */
+"UaD-KN-RJh.text" = "Doctors Advice";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "Vrf-Eg-9Y9"; */
+"Vrf-Eg-9Y9.placeholder" = "Old Password";
+
+/* Class = "UILabel"; text = "9876543212"; ObjectID = "XJl-uX-0yR"; */
+"XJl-uX-0yR.text" = "9876543212";
+
+/* Class = "UILabel"; text = "Yes"; ObjectID = "Xve-Ei-ijS"; */
+"Xve-Ei-ijS.text" = "Yes";
+
+/* Class = "UILabel"; text = "Select Procedure"; ObjectID = "Ygu-la-ZEb"; */
+"Ygu-la-ZEb.text" = "Select Procedure";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "Ylx-SE-2cT"; */
+"Ylx-SE-2cT.normalTitle" = "Select";
+
+/* Class = "UILabel"; text = "Get in touch with us!"; ObjectID = "YxK-Af-tih"; */
+"YxK-Af-tih.text" = "Get in touch with us!";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "ZGf-8d-bFn"; */
+"ZGf-8d-bFn.text" = "About us";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Zeq-pU-ybl"; */
+"Zeq-pU-ybl.text" = "Date";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ZrX-Le-K6H"; */
+"ZrX-Le-K6H.placeholder" = "پاس ورڈ";
+
+/* Class = "UITextField"; placeholder = "S/O W/O"; ObjectID = "a8M-jD-FNY"; */
+"a8M-jD-FNY.placeholder" = "S/O W/O";
+
+/* Class = "UITextField"; placeholder = "Mobile number"; ObjectID = "aR9-Md-num"; */
+"aR9-Md-num.placeholder" = "موبائل فون کانمبر";
+
+/* Class = "UIButton"; normalTitle = "Verify OTP"; ObjectID = "aap-56-HB0"; */
+"aap-56-HB0.normalTitle" = "Verify OTP";
+
+/* Class = "UILabel"; text = "when would you like to doctor ?"; ObjectID = "axr-JV-kk8"; */
+"axr-JV-kk8.text" = "when would you like to doctor ?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bRo-0D-vaZ"; */
+"bRo-0D-vaZ.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "bww-cE-7ot"; */
+"bww-cE-7ot.placeholder" = "ای میل";
+
+/* Class = "UIButton"; normalTitle = "To Date"; ObjectID = "bz8-EP-MeB"; */
+"bz8-EP-MeB.normalTitle" = "To Date";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "cbx-a2-1Kw"; */
+"cbx-a2-1Kw.title" = "Item";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "cnt-vn-wHr"; */
+"cnt-vn-wHr.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "cth-wh-CXu"; */
+"cth-wh-CXu.normalTitle" = "1";
+
+/* Class = "UIButton"; normalTitle = "Appointment"; ObjectID = "dbq-pK-rTy"; */
+"dbq-pK-rTy.normalTitle" = "تقرری";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "e40-uu-Sef"; */
+"e40-uu-Sef.text" = "Description";
+
+/* Class = "UILabel"; text = "FRI"; ObjectID = "eDA-CM-2bU"; */
+"eDA-CM-2bU.text" = "FRI";
+
+/* Class = "UILabel"; text = "Patient name :"; ObjectID = "fFg-0x-VEj"; */
+"fFg-0x-VEj.text" = "Patient name :";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "fFg-Cd-FhH"; */
+"fFg-Cd-FhH.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "From Date"; ObjectID = "fGp-4C-2bt"; */
+"fGp-4C-2bt.normalTitle" = "From Date";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "fms-lk-B5H"; */
+"fms-lk-B5H.placeholder" = "پاس ورڈ";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "g8c-ro-Op9"; */
+"g8c-ro-Op9.placeholder" = "Age";
+
+/* Class = "UIButton"; normalTitle = "Terms & Conditions"; ObjectID = "gDN-64-Hi9"; */
+"gDN-64-Hi9.normalTitle" = "Terms & Conditions";
+
+/* Class = "UILabel"; text = "Doctor name :"; ObjectID = "gIL-ld-Qu9"; */
+"gIL-ld-Qu9.text" = "Doctor name :";
+
+/* Class = "UILabel"; text = "Date : 2021-03-09"; ObjectID = "gKJ-gK-WEI"; */
+"gKJ-gK-WEI.text" = "Date : 2021-03-09";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h3R-cB-Tmu"; */
+"h3R-cB-Tmu.text" = "Label";
+
+/* Class = "UILabel"; text = "Enter your phone number to receive OTP for login"; ObjectID = "hFX-t8-pn9"; */
+"hFX-t8-pn9.text" = "Enter your phone number to receive OTP for login";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "iMs-zE-ffe"; */
+"iMs-zE-ffe.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "Enter received OTP on your entered number"; ObjectID = "ioU-o2-Ylp"; */
+"ioU-o2-Ylp.text" = "Enter received OTP on your entered number";
+
+/* Class = "UILabel"; text = "• Our Vision "; ObjectID = "jFQ-vX-iFv"; */
+"jFQ-vX-iFv.text" = "• Our Vision ";
+
+/* Class = "UITextField"; placeholder = "District"; ObjectID = "jIz-bs-Tat"; */
+"jIz-bs-Tat.placeholder" = "District";
+
+/* Class = "UILabel"; text = "Order Medicine"; ObjectID = "jej-A8-oAI"; */
+"jej-A8-oAI.text" = "Order Medicine";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jr3-ty-WpI"; */
+"jr3-ty-WpI.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "k28-XA-5Uu"; */
+"k28-XA-5Uu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Lable"; ObjectID = "kJQ-Mv-3AR"; */
+"kJQ-Mv-3AR.text" = "Lable";
+
+/* Class = "UITextField"; placeholder = "First name"; ObjectID = "lB7-Mf-36r"; */
+"lB7-Mf-36r.placeholder" = "پہلا نام";
+
+/* Class = "UILabel"; text = "Yes"; ObjectID = "leC-nw-s2j"; */
+"leC-nw-s2j.text" = "Yes";
+
+/* Class = "UILabel"; text = "Do you have BP ?"; ObjectID = "mu6-yi-rVp"; */
+"mu6-yi-rVp.text" = "Do you have BP ?";
+
+/* Class = "UITextField"; placeholder = "Contact number"; ObjectID = "mwH-S6-lSI"; */
+"mwH-S6-lSI.placeholder" = "Contact number";
+
+/* Class = "UILabel"; text = "Procedure type :"; ObjectID = "oLm-Ue-e4o"; */
+"oLm-Ue-e4o.text" = "Procedure type :";
+
+/* Class = "UIButton"; normalTitle = "new user ? click here!"; ObjectID = "oRx-mm-3jI"; */
+"oRx-mm-3jI.normalTitle" = "نیا صارف ؟ یہاں کلک کریں!";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "pHp-50-dT5"; */
+"pHp-50-dT5.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Is This Normal ?"; ObjectID = "pJT-Dk-GYR"; */
+"pJT-Dk-GYR.text" = "Is This Normal ?";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "pRp-6D-XXv"; */
+"pRp-6D-XXv.normalTitle" = "لاگ ان کریں";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "pXz-Ke-eyJ"; */
+"pXz-Ke-eyJ.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Do you have Diabetes ?"; ObjectID = "qI8-T7-nK3"; */
+"qI8-T7-nK3.text" = "Do you have Diabetes ?";
+
+/* Class = "UIButton"; normalTitle = "already have account? click here.!"; ObjectID = "qn7-SL-X50"; */
+"qn7-SL-X50.normalTitle" = "پہلے سے ہی اکاؤنٹ ہے؟ یہاں کلک کریں.!";
+
+/* Class = "UILabel"; text = "Select Doctor"; ObjectID = "s5C-Br-W6c"; */
+"s5C-Br-W6c.text" = "Select Doctor";
+
+/* Class = "UIButton"; normalTitle = "Appointment"; ObjectID = "sbE-Ow-NeG"; */
+"sbE-Ow-NeG.normalTitle" = "تقرری";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "sgP-5F-2T0"; */
+"sgP-5F-2T0.text" = "Name";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "tDe-em-BwX"; */
+"tDe-em-BwX.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "User name"; ObjectID = "tcv-Z1-aDr"; */
+"tcv-Z1-aDr.placeholder" = "صارف کا نام";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "uL2-cj-jTO"; */
+"uL2-cj-jTO.title" = "Drawer Menu";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "uhJ-in-GIj"; */
+"uhJ-in-GIj.normalTitle" = "لاگ آوٹ";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "v0Y-Yj-pZw"; */
+"v0Y-Yj-pZw.normalTitle" = "Change";
+
+/* Class = "UILabel"; text = "Second Opinion"; ObjectID = "vEY-fm-L6v"; */
+"vEY-fm-L6v.text" = "Second Opinion";
+
+/* Class = "UILabel"; text = "FRI"; ObjectID = "vQZ-0k-tvh"; */
+"vQZ-0k-tvh.text" = "FRI";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "vgf-Ku-w4s"; */
+"vgf-Ku-w4s.title" = "Drawer Menu";
+
+/* Class = "UILabel"; text = "No"; ObjectID = "w87-Hm-6hb"; */
+"w87-Hm-6hb.text" = "No";
+
+/* Class = "UINavigationItem"; title = "Drawer Menu"; ObjectID = "wGx-Sh-nKu"; */
+"wGx-Sh-nKu.title" = "Drawer Menu";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xMB-oe-8TQ"; */
+"xMB-oe-8TQ.placeholder" = "پاس ورڈ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xjP-jb-7de"; */
+"xjP-jb-7de.text" = "Label";
+
+/* Class = "UILabel"; text = "Pulse Hospital and Research Center NH 1, By Pass, opp. Channi Himmat, Jammu, Jammu and Kashmir 180015"; ObjectID = "yCz-JH-oyK"; */
+"yCz-JH-oyK.text" = "Pulse Hospital and Research Center NH 1, By Pass, opp. Channi Himmat, Jammu, Jammu and Kashmir 180015";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "yDz-xA-0AB"; */
+"yDz-xA-0AB.normalTitle" = "Select";
+
+/* Class = "UINavigationItem"; title = "Pulse Hospital"; ObjectID = "yOp-3B-Rou"; */
+"yOp-3B-Rou.title" = "پلس اسپتال";
+
+/* Class = "UITextField"; placeholder = "User name"; ObjectID = "z1K-ca-W1f"; */
+"z1K-ca-W1f.placeholder" = "User name";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "z6H-16-Kj3"; */
+"z6H-16-Kj3.normalTitle" = "سائن اپ";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "zM4-nt-OJK"; */
+"zM4-nt-OJK.title" = "Item";
